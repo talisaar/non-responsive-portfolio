@@ -103,7 +103,7 @@ footer {
 	height: 100px;
 	width: 100%;
 	position: absolute;
-	bottom: -650px;
+	bottom: -500px;
     /*top: 1000px;*/
     border-top-color: #4aaaa5;
 	border-top-width: 7px;
@@ -228,12 +228,12 @@ font-family: Arial;
 
 #about_me {
 	display: inline-block;
-	height: 1100px;
+	height: 950px;
 	width: 610px;
 	background-color: #FFFFFF;
 	float:left;
 	margin: 10px;
-	line-height: 200%;
+	line-height: 170%;
 	padding: 18px;
 	border-color: #dddddd;
 	border-width: 1px;
@@ -292,7 +292,7 @@ vertical-align: middle;
 #profile_photo {
 	float: left;
 	padding-right: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 
 .button {
