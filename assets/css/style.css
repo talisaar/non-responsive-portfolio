@@ -195,27 +195,40 @@ font-family: Arial;
 	padding:13px;
 }
 
+
+#nav {
+	width: 100%;
+	max-width: 960px;
+	position: relative;
+	margin: auto;
+	border-color: red;
+	border-width: 10px;
+}
+
 #name_block {
 	height: 80px;
 	width: 200px;
 	line-height: 80px;
-	float:left;
-	margin-left:250px;
 	background-color: #4aaaa5;
 	text-align: center;
 	color: #FFFFFF;
 	padding-right: 20px;
 	padding-left: 20px;
-	display: table-cell;
+	/*display: table-cell;*/
 	vertical-align: middle;
+	position: absolute;
+	/*left:0px;*/
+	left:10px;
 }
+
 
 #button_container {
 	height: 100px;
-	width: 400px;
+	/*width: 300px;*/
 	line-height: 100px;
-	float:right;
-    margin-right:12%;
+    position: absolute;
+ 	/*right:0px;*/
+ 	right:15px;
 }
 
 
@@ -223,7 +236,7 @@ font-family: Arial;
 	width:960px;
 	height: 600px;
 	margin: auto;
-	position:relative;
+	/*position:relative;*/
 }
 
 #about_me {
